@@ -22,17 +22,17 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "aspnetcoreapp/1.0.0": {
+      "Cut/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Nito.AsyncEx": "4.0.1"
         },
         "runtime": {
-          "aspnetcoreapp.dll": {}
+          "Cut.dll": {}
         },
         "compile": {
-          "aspnetcoreapp.dll": {}
+          "Cut.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -3208,7 +3208,7 @@
     }
   },
   "libraries": {
-    "aspnetcoreapp/1.0.0": {
+    "Cut/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

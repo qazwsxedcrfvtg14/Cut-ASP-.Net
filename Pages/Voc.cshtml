@@ -5,12 +5,18 @@
 }
 <h2>@ViewData["Title"]</h2>
 
-@Model.Message
 
-<form >
-    查詢之單字: <input type="text" method="post" name="qry"/>
-    <input type="submit" value="送出"/>
+@foreach (var msg in Model.Message)
+{
+    <h3>@msg.Item1</h3>
+    <p style="margin: 0px 0px 10px 20px">@msg.Item2</p>
+}
+
+<br/>
+<p>
+<form method="POST">
+    查詢之單字: <input asp-for="@Model.Query"/>
+    <input type="submit"/>
 </form> 
+</p>
 
-
-<p>Use this area to provide additional information.</p>

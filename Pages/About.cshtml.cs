@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace aspnetcoreapp.Pages
+namespace Cut.Pages
 {
     public class AboutModel : PageModel
     {
@@ -12,7 +12,7 @@ namespace aspnetcoreapp.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "這是個DSP的final project!";
         }
     }
 }

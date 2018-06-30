@@ -11786,9 +11786,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qazws\\Desktop\\aspnetcoreapp\\aspnetcoreapp.csproj",
-      "projectName": "aspnetcoreapp",
-      "projectPath": "C:\\Users\\qazws\\Desktop\\aspnetcoreapp\\aspnetcoreapp.csproj",
+      "projectUniqueName": "C:\\Users\\qazws\\Desktop\\aspnetcoreapp\\Cut.csproj",
+      "projectName": "Cut",
+      "projectPath": "C:\\Users\\qazws\\Desktop\\aspnetcoreapp\\Cut.csproj",
       "packagesPath": "C:\\Users\\qazws\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\qazws\\Desktop\\aspnetcoreapp\\obj\\",
       "projectStyle": "PackageReference",

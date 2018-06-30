@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace aspnetcoreapp
+namespace Cut
 {
     static public class SaveAndLoad
     {

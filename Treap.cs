@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace aspnetcoreapp
+namespace Cut
 {
     public class Treap<T, S> where T : IComparable
     {

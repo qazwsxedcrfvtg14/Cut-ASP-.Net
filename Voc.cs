@@ -12,7 +12,7 @@ using System.Threading;
 using Nito.AsyncEx;
 using System.Web;
 
-namespace aspnetcoreapp
+namespace Cut
 {
     public static partial class Voc
     {

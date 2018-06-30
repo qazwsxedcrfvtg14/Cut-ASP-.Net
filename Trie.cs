@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace aspnetcoreapp
+namespace Cut
 {
     public class Trie<T>:IEnumerable<KeyValuePair<string, T>>
     {
