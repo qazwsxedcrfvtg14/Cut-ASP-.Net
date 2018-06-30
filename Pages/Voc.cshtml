@@ -1,0 +1,16 @@
+﻿@page
+@model VocModel
+@{
+    ViewData["Title"] = "單字分解";
+}
+<h2>@ViewData["Title"]</h2>
+
+@Model.Message
+
+<form >
+    查詢之單字: <input type="text" method="post" name="qry"/>
+    <input type="submit" value="送出"/>
+</form> 
+
+
+<p>Use this area to provide additional information.</p>
