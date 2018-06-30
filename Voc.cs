@@ -29,7 +29,7 @@ namespace aspnetcoreapp
         //public static SortedDictionary<string, SortedSet<string>> rtp=null;
         public static void DumpAppFile(string fil)
         {
-            string s= SaveAndLoad.LoadText("..\\bin\\data\\"+fil);
+            string s= SaveAndLoad.LoadText(fil);
             SaveAndLoad.SaveText(fil, s);
         }
         public static void SavingSetting()
